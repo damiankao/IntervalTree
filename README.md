@@ -19,7 +19,7 @@ The first two elements are the start and end coordinates. THe last element is th
 ##### To make a new tree
 To construct a new tree in python, use the ``intervalTree`` function:
 
-    ``myTree = intervalTree(features, 0, 1, 1, 2000)
+    myTree = intervalTree(features, 0, 1, 1, 2000)
 
 The arguments are: input coordinate data, index of the start position of each coordinate item, index of the end position of each coordinate item, start of the search space, end of the search space. 
 
@@ -30,7 +30,7 @@ The search space is the coordinate space you want to construct the interval tree
 #### To query the tree
 To find elements within a range, use the ``findRange`` method:
 
-    ``results = myTree.findRange([20,200]) #find features within 20-200
+    results = myTree.findRange([20,200]) #find features within 20-200
 
 This method will return a list of features within the given range.
 
